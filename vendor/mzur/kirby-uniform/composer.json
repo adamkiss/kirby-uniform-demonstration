@@ -1,0 +1,43 @@
+{
+    "name": "mzur/kirby-uniform",
+    "description": "A versatile Kirby plugin to handle web form actions.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["kirby", "form"],
+    "authors": [
+        {
+            "name": "Martin Zurowietz",
+            "email": "martin@the-inspired-ones.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mzur/kirby-uniform/issues",
+        "source": "https://github.com/mzur/kirby-uniform",
+        "docs": "http://kirby-uniform.readthedocs.io"
+    },
+    "require": {
+        "mzur/kirby-form": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "mzur/kirby-defuse-session": "^1.0",
+        "getkirby/cms": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uniform\\": "src/"
+        },
+        "files": [
+            "config.php",
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Uniform\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "kirby-cms-path": "vendor/getkirby/kirby"
+    }
+}
