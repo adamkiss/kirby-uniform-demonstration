@@ -19,6 +19,38 @@
 */
 ?>
 <?php snippet('header') ?>
+<style>
+    .form-test{
+      margin: 60px 0;
+      border: 1px solid lightgray;
+      padding: 40px;
+    }
+    .form-test form {
+      display: flex;
+    }
+    .form-test form > * {
+      margin-right: 20px
+    }
+  </style>
+
+  <div class="form-test">
+    <header class="h1">
+      <h1>
+        Uniform test: 
+        <span class="color-grey"><?= 
+          $form->success() ? 'Success' :
+            ($form->error() ? 'Error' : '---')
+        ?></span>
+      </h1>
+    </header>
+    <form action="/" method="POST" id="form-test">
+      <?= csrf_field() ?>
+      <label for="form-input">Input any text ("test" is the only that won't error)</label>
+      <input type="text" name="input" id="form-input">
+      <button type="submit">Submit</button>
+    </form> 
+  </div>
+
   <?php snippet('intro') ?>
   <?php
   /*
