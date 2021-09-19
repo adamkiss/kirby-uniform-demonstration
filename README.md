@@ -21,8 +21,8 @@ That's everything.
 
 Adam
 
-[controller]: /adamkiss/kirby-uniform-demonstration/tree/main/site/controllers/home.php
-[template]: /adamkiss/kirby-uniform-demonstration/tree/main/site/templates/home.php#L36
-[guards]:  /adamkiss/kirby-uniform-demonstration/tree/main/site/plugins/uniform-guards/index.php
-[actions]:  /adamkiss/kirby-uniform-demonstration/tree/main/site/plugins/uniform-actions/index.php
+[controller]: /adamkiss/kirby-uniform-demonstration/blob/main/site/controllers/home.php
+[template]: /adamkiss/kirby-uniform-demonstration/blob/main/site/templates/home.php#L36-L52
+[guards]:  /adamkiss/kirby-uniform-demonstration/blob/main/site/plugins/uniform-guards/index.php
+[actions]:  /adamkiss/kirby-uniform-demonstration/blob/main/site/plugins/uniform-actions/index.php
 
